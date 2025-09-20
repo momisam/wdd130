@@ -1,33 +1,59 @@
+/* Main Content */
 main {
-    max-width: 840px;
+  max-width: 840px;
 }
 
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+}
+
+/* Heading */
+h1 {
+  color: darkblue;
+}
+
+/* Images inside main */
+main img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Aside Section */
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-}
-
+/* Paragraph */
 p {
-    padding: 0;
+  padding: 0;
 }
 
+/* Footer */
 footer {
-    margin-top: 150px;
-    border-top: 1px solid #000;
-    text-align: center;
+  margin-top: 150px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
