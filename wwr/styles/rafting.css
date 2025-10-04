@@ -202,3 +202,84 @@ footer .socialmedia img {
 footer .socialmedia img:hover {
   transform: scale(1.2);
 }
+
+/* --- Contact Page Styles --- */
+.contact-info, .contact-form, .employees {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #0275d8;   /* Blue for visibility */
+  color: #fff;
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #025aa5;   /* Darker blue hover/focus for accessibility */
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Employee section */
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+}
+
+.profiles img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure good color contrast */
+body {
+  background-color: #fff;
+  color: #222;
+}
+
+a {
+  color: #0275d8;
+}
+
+a:hover {
+  color: #014f86;
+}
